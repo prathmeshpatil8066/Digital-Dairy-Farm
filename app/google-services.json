@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569830865692",
+    "project_id": "dfarm-f640b",
+    "storage_bucket": "dfarm-f640b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569830865692:android:8668a548e79536744d18d9",
+        "android_client_info": {
+          "package_name": "com.example.dfarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy-uGSCuv7hw3g1FMLeAMmFLFkIyG-FUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
