@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".totalcollectionFragment"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginTop="20dp"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dairy Farm"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/lenderborder"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/radioGroupMilkType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Milk Type : "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buffalo"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Shift : "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupShift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evening"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date : "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tap to select date"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/lenderborder3"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+        android:clickable="true"
+        android:focusable="true" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#38FF0000"
+        />
+
+</LinearLayout>
